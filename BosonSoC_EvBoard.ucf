@@ -1,0 +1,47 @@
+NET "clk_ref" TNM_NET = "CLK";
+TIMESPEC "TS_CLK" = PERIOD "CLK" 100 ns HIGH 50%;
+
+NET "clk_ref" LOC = P55;
+NET "reset_sw" LOC = P26;
+
+NET "uart_rx" LOC = P74;
+NET "uart_tx" LOC = P75;
+
+NET "gpio_out<16>" LOC = P140;
+NET "gpio_out<17>" LOC = P141;
+NET "gpio_in<0>" LOC = P112;
+NET "gpio_in<1>" LOC = P114;
+NET "gpio_in<2>" LOC = P115;
+NET "gpio_in<3>" LOC = P116;
+NET "gpio_out<0>" LOC = P117;
+NET "gpio_out<1>" LOC = P118;
+NET "gpio_out<2>" LOC = P119;
+NET "gpio_out<3>" LOC = P120;
+NET "gpio_out<4>" LOC = P121;
+NET "gpio_out<5>" LOC = P123;
+NET "gpio_out<6>" LOC = P124;
+NET "gpio_out<7>" LOC = P126;
+NET "gpio_out<8>" LOC = P127;
+NET "gpio_out<9>" LOC = P131;
+NET "gpio_out<10>" LOC = P132;
+NET "gpio_out<11>" LOC = P133;
+NET "gpio_out<12>" LOC = P134;
+NET "gpio_out<13>" LOC = P137;
+NET "gpio_out<14>" LOC = P138;
+NET "gpio_out<15>" LOC = P139;
+NET "gpio_io<0>" LOC = P29 | PULLDOWN;
+NET "gpio_io<1>" LOC = P30 | PULLDOWN;
+NET "gpio_io<2>" LOC = P32 | PULLDOWN;
+NET "gpio_io<3>" LOC = P33 | PULLDOWN;
+NET "gpio_io<4>" LOC = P34 | PULLDOWN;
+NET "gpio_io<5>" LOC = P35 | PULLDOWN;
+NET "gpio_io<6>" LOC = P40 | PULLDOWN;
+NET "gpio_io<7>" LOC = P41 | PULLDOWN;
+NET "gpio_io<8>" LOC = P43 | PULLDOWN;
+NET "gpio_io<9>" LOC = P44 | PULLDOWN;
+NET "gpio_io<10>" LOC = P45 | PULLDOWN;
+NET "gpio_io<11>" LOC = P46 | PULLDOWN;
+NET "gpio_io<12>" LOC = P47 | PULLDOWN;
+NET "gpio_io<13>" LOC = P48 | PULLDOWN;
+NET "gpio_io<14>" LOC = P50 | PULLDOWN;
+NET "gpio_io<15>" LOC = P51 | PULLDOWN;

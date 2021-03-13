@@ -1,0 +1,3 @@
+DPRAM:便笺式寄存器x_s6_dpram
+DCM:时钟生成x_s6_dcm
+SPROM:只读储存器x_s6_dpram
